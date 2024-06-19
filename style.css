@@ -1,0 +1,28 @@
+@import url("/styles/reset.css");
+@import url("/styles/home.css");
+
+body {
+  font-family: var(--fonte-texto);
+  background-color: var(--texto-claro);
+}
+
+:root {
+  --fonte-titulo: brawler, serif;
+  --fonte-texto: roboto, Arial, Helvetica, sans-serif;
+  --texto-claro: #f6f6f6;
+  --texto-claro2: #e7e7e7;
+  --texto-escuro: #000000;
+  --texto-escuro2: #1e1e1e;
+  --cor-teak600: #856a42;
+  --cor-teak500: #9a8058;
+  --cor-teak400: #ae976e;
+  --cor-teak300: #bdab87;
+  --cor-teak100: #e9e5d8;
+  --cor-anzac200: #dfc681;
+}
+
+.container-content {
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}

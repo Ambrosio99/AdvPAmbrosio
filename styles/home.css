@@ -1,0 +1,313 @@
+/* SPAN INFOS */
+.span-infos-bg {
+  background-color: #000000;
+  padding: 0.6rem;
+}
+.span-infos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: var(--texto-claro);
+  font-size: 0.85rem;
+  align-items: center;
+  font-weight: 500;
+  padding: 0 2rem;
+}
+.span-infos-lista {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  & li {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+}
+
+/* HEADER */
+.header-bg {
+  background: url(../images/bg-header.png) center repeat;
+  background-size: cover;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+}
+.nav-menu {
+  display: flex;
+  gap: 2.5rem;
+}
+.nav-menu li a {
+  position: relative;
+  text-decoration: none;
+  color: var(--texto-claro);
+  font-weight: 500;
+  font-size: 1.15rem;
+  &:after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    margin-top: 4px;
+    background-color: var(--texto-claro);
+    transition: 0.3s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.header-intro {
+  display: grid;
+  gap: 2.5rem;
+  justify-items: center;
+  padding: 4rem 2.5rem 6rem 2.5rem;
+  & h1 {
+    font-size: 3.5rem;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-teak300);
+  }
+  & p {
+    color: var(--texto-claro);
+    font-family: var(--fonte-texto);
+    text-align: center;
+    max-width: 85ch;
+    line-height: 1.6rem;
+    font-size: 1.15rem;
+  }
+  & a {
+    font-size: 1.5rem;
+    color: var(--texto-claro);
+    background-color: var(--cor-teak400);
+    padding: 1.2rem 1.8rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    &:hover {
+      background-color: var(--cor-teak500);
+    }
+  }
+}
+
+/* SECTION ATUAÇÃO */
+.atuacao-bg {
+  background: linear-gradient(to right, #e9e5d8 30%, #f6f6f6 30%);
+}
+.atuacao-container {
+  background: linear-gradient(to right, #e9e5d8 26%, #f6f6f6 26%);
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 2rem 2.5rem 0 2.5rem;
+  gap: 1rem;
+  align-items: center;
+  & img {
+    max-width: 100%;
+    align-self: end;
+    max-height: 500px;
+  }
+}
+
+.atuacao-info-container {
+  padding: 2rem 0 2rem 0;
+}
+.atuacao-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  & span {
+    color: var(--cor-teak400);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    display: block;
+  }
+  & h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 2.5rem;
+  }
+  & img {
+    max-width: 100%;
+    align-self: start;
+  }
+}
+.atuacao-texto {
+  font-size: 1.15rem;
+  line-height: 1.3rem;
+  max-width: 60ch;
+}
+.atuacao-btn {
+  display: inline-block;
+  font-size: 1rem;
+  color: var(--texto-claro);
+  background-color: var(--cor-teak400);
+  margin-top: 0.5rem;
+  padding: 1rem 1.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  &:hover {
+    background-color: var(--cor-teak500);
+  }
+}
+
+/* SECTION ADVOGADOS */
+.adv01-bg {
+  background-color: var(--texto-escuro2);
+}
+.adv01-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+  justify-items: center;
+  gap: 3rem;
+  padding: 4rem 2.5rem;
+}
+.adv01-intro {
+  & span {
+    color: var(--cor-anzac200);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    display: block;
+  }
+  & h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 2.5rem;
+    color: var(--texto-claro);
+  }
+  & p {
+    font-size: 1.15rem;
+    line-height: 1.3rem;
+    max-width: 60ch;
+    color: var(--texto-claro);
+  }
+}
+
+.adv02-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+  justify-items: center;
+  gap: 3rem;
+  padding: 4rem 2.5rem;
+}
+.adv02-intro {
+  & span {
+    color: var(--cor-teak400);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    display: block;
+  }
+  & h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 2.5rem;
+    color: var(--texto-escuro);
+  }
+  & p {
+    font-size: 1.15rem;
+    line-height: 1.3rem;
+    max-width: 60ch;
+    color: var(--texto-escuro2);
+  }
+}
+
+/* SECTION LOCAL */
+.local-bg {
+  background: url(../images/city-local.png) center repeat;
+  background-size: cover;
+}
+.local-titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 2.5rem;
+  padding-top: 4rem;
+  color: var(--cor-teak400);
+  text-align: center;
+}
+.local-info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  justify-items: center;
+  gap: 2rem;
+  padding: 1rem 2.5rem 4rem 2.5rem;
+}
+.local-texto {
+  display: grid;
+  gap: 1rem;
+  & p {
+    font-size: 1.15rem;
+    line-height: 1.3rem;
+    max-width: 60ch;
+    color: var(--texto-claro);
+  }
+  & a {
+    display: inline-block;
+    max-width: max-content;
+    font-size: 1rem;
+    color: var(--texto-claro);
+    background-color: var(--cor-teak500);
+    margin-top: 0.5rem;
+    padding: 1rem 1.4rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    &:hover {
+      background-color: var(--cor-teak600);
+    }
+  }
+}
+.local-maps {
+  display: grid;
+  gap: 1rem;
+  & li {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    color: var(--texto-claro);
+    padding-bottom: 0.7rem;
+    & img {
+      max-width: 1.15rem;
+    }
+  }
+}
+
+/* OBJETIVO ESCRITORIO */
+.objetivo-bg {
+  background-color: var(--texto-escuro2);
+}
+.objetivo-container {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 2.5rem;
+  & p {
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: var(--fonte-titulo);
+    color: var(--texto-claro);
+    padding: 1rem 0;
+    line-height: 2.2rem;
+  }
+  & img:first-child {
+    place-self: start;
+    max-width: 3.5rem;
+  }
+  & img:last-child {
+    place-self: end;
+    max-width: 3.5rem;
+  }
+}
