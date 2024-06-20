@@ -65,7 +65,7 @@
   display: grid;
   gap: 2.5rem;
   justify-items: center;
-  padding: 4rem 2.5rem 6rem 2.5rem;
+  padding: 4rem 2.5rem 7rem 2.5rem;
   & h1 {
     font-size: 3.5rem;
     font-family: var(--fonte-titulo);
@@ -130,7 +130,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     display: block;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
   }
   & img {
     max-width: 100%;
@@ -141,6 +141,7 @@
   font-size: 1.15rem;
   line-height: 1.3rem;
   max-width: 60ch;
+  padding-bottom: 1rem;
 }
 .atuacao-btn {
   display: inline-block;
@@ -259,9 +260,9 @@
   }
   & a {
     display: inline-block;
-    max-width: max-content;
-    font-size: 1rem;
     color: var(--texto-claro);
+    /* max-width: max-content;
+    font-size: 1rem;
     background-color: var(--cor-teak500);
     margin-top: 0.5rem;
     padding: 1rem 1.4rem;
@@ -270,7 +271,7 @@
     border-radius: 4px;
     &:hover {
       background-color: var(--cor-teak600);
-    }
+    } */
   }
 }
 .local-maps {
