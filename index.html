@@ -25,7 +25,10 @@
   <header class="header-bg">
     <nav class="container-content nav-container">
       <img src="" alt="" class="nav-logotipo">
-      <ul class="nav-menu">
+      <div class="menu-hamb" id="menuHamb">
+        &#9776; <span style="font-size: 0.5rem;">MENU</span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
         <li><a href="#header" id="inicio toinit">Início</a></li>
         <li><a href="#atuacao">Atuação</a></li>
         <li><a href="#advogados">Advogados</a></li>
@@ -54,11 +57,13 @@
             </div>
             <img src="./images/icons/icon-atuacao.svg" alt="">
           </div>
-          <p class="atuacao-texto">
-            Os negócios imobiliários, seja para aquisição de um imóvel, locação ou negociação de outra natureza, são sempre em razão de uma escolha e necessidade, pessoal ou familiar, seja para moradia ou investimento.<br><br> Por isso, é necessário cautela durante as negociações ou resoluções de problemas relacionados ao bem, sendo fundamental a participação de um advogado que atue na área de Direito Imobiliário, ramo do direito privado que conta com leis especificas. O custo de contar com a assistência jurídica de um advogado com o devido conhecimento técnico é muito menor do que o custo de um erro no negócio.<br><br>
-            Nossa atuação compreende a elaboração de contratos imobiliários, notificações extrajudiciais e judiciais, cobranças e execuções de dívidas, regularização de imóveis, planejamento sucessório, inventário e partilha de bens imóveis, assessoria em leilões, representação em ações de despejo, reintegração de posse, usucapião e extinção de condomínio, além de atender outras necessidades exclusivas de cada cliente.
-          </p>
-          <!-- <a href="/atuação.html" class="atuacao-btn">Leia mais →</a> -->
+          <div class="texto-geral">
+            <p>
+              Os negócios imobiliários, seja para aquisição de um imóvel, locação ou negociação de outra natureza, são sempre em razão de uma escolha e necessidade, pessoal ou familiar, seja para moradia ou investimento. </p>
+            <p>Por isso, é necessário cautela durante as negociações ou resoluções de problemas relacionados ao bem, sendo fundamental a participação de um advogado que atue na área de Direito Imobiliário, ramo do direito privado que conta com leis especificas. O custo de contar com a assistência jurídica de um advogado com o devido conhecimento técnico é muito menor do que o custo de um erro no negócio.</p>
+            <p class="leia-mais-texto" id="leiaMaisTexto">Nossa atuação compreende a elaboração de contratos imobiliários, notificações extrajudiciais e judiciais, cobranças e execuções de dívidas, regularização de imóveis, planejamento sucessório, inventário e partilha de bens imóveis, assessoria em leilões, representação em ações de despejo, reintegração de posse, usucapião e extinção de condomínio, além de atender outras necessidades exclusivas de cada cliente.</p>
+            <span class="leia-mais" id="leiaMais">Leia mais...</span>
+          </div>
         </div>
       </div>
     </section>
@@ -68,33 +73,35 @@
         <div class="adv01-intro">
           <span>ADVOGADO</span>
           <h2>Paulo Ambrósio</h2>
-          <p>
-            O advogado <strong>Paulo Ambrósio</strong> é militante desde 1992, quando ainda se encontrava na condição de acadêmico de Direito da Pontifícia Universidade Católica do Paraná (PUC-PR). Nessa época já atuava na condição de Estagiário de Direito, com a devida inscrição na Ordem dos Advogados do Brasil - Seção do Paraná, sob n.º 6.132.<br><br>
-            Formou-se em 1993 e foi devidamente inscrito na Ordem dos Advogados do Brasil - Seção do Paraná, em 1994, sob n.º 20.909<br><br>
-            O advogado é o <strong>fundador da Advocacia Paulo Ambrósio</strong> e, desde que iniciou sua militância, sempre atuou exclusivamente no seu labor, sem desviar sua atenção com outras formas de trabalho ou ocupações, o que lhe proporciona intensa experiência e contínua atualização jurídica.<br><br>
-            Atualmente divide sua atuação e experiência jurídica com seu filho <strong>Paulo Ambrósio Junior</strong>, também advogado do escritório.
-          </p>
+          <div class="texto-geral">
+            <p> O advogado <strong>Paulo Ambrósio</strong> é militante desde 1992, quando ainda se encontrava na condição de acadêmico de Direito da Pontifícia Universidade Católica do Paraná (PUC-PR). Nessa época já atuava na condição de Estagiário de Direito, com a devida inscrição na Ordem dos Advogados do Brasil - Seção do Paraná, sob n.º 6.132. </p>
+            <p> Formou-se em 1993 e foi devidamente inscrito na Ordem dos Advogados do Brasil - Seção do Paraná, em 1994, sob n.º 20.909 </p>
+            <p class="leia-mais-texto" id="leiaMaisTexto"> O advogado é o <strong>fundador da Advocacia Paulo Ambrósio</strong> e, desde que iniciou sua militância, sempre atuou exclusivamente no seu labor, sem desviar sua atenção com outras formas de trabalho ou ocupações, o que lhe proporciona intensa experiência e contínua atualização jurídica. <br><br>
+              Atualmente divide sua atuação e experiência jurídica com seu filho <strong>Paulo Ambrósio Junior</strong>, também advogado do escritório. </p>
+            <span class="leia-mais" id="leiaMais">Leia mais...</span>
+          </div>
         </div>
         <div class="adv01-img">
-          <img src="" alt="" width="400px" height="480px" style="background-color: grey;">
+          <!-- <img src="" alt="" width="400px" height="480px" style="background-color: grey;"> -->
         </div>
       </div>
     </section>
-    <section>
+    <section class="adv02-bg">
       <div class="container-content adv02-container">
         <div class="adv02-img">
-          <img src="" alt="" width="400px" height="480px" style="background-color: grey;">
+          <!-- <img src="" alt="" width="400px" height="480px" style="background-color: grey;"> -->
         </div>
         <div class="adv02-intro">
           <span>ADVOGADO</span>
           <h2>Paulo Ambrósio Junior</h2>
-          <p>
-            O advogado <strong>Paulo Ambrósio</strong> é militante desde 2015, quando ainda se encontrava na condição de acadêmico de Direito e atuava como assistente jurídico junto ao seu pai, o advogado <strong>Paulo Ambrósio</strong>.<br><br>
+          <div class="texto-geral">
+            <p> O advogado <strong>Paulo Ambrósio</strong> é militante desde 2015, quando ainda se encontrava na condição de acadêmico de Direito e atuava como assistente jurídico junto ao seu pai, o advogado <strong>Paulo Ambrósio</strong>. </p>
 
-            Formou-se em Direito pelo Centro Universitário Curitiba (UNICURITIBA), no ano de 2020, e se especializou em Direito Imobiliário, Registral e Notarial pela Pontifícia Universidade Católica do Paraná (PUC-PR).<br><br>
+            <p> Formou-se em Direito pelo Centro Universitário Curitiba (UNICURITIBA), no ano de 2020, e se especializou em Direito Imobiliário, Registral e Notarial pela Pontifícia Universidade Católica do Paraná (PUC-PR). </p>
 
-            O advogado encontra-se regularmente inscrito na Ordem dos Advogados do Brasil - Seção do Paraná, sob n.º 107.048.
-          </p>
+            <p> O advogado encontra-se regularmente inscrito na Ordem dos Advogados do Brasil - Seção do Paraná, sob n.º 107.048. </p>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -136,17 +143,17 @@
       <div class="container-content home-contato-container">
         <h2>Fale conosco:</h2>
         <div class="home-form-container">
-          <form action="" class="form-contato">
+          <form action="./enviar.php" method="post" class="form-contato">
             <div>
               <label for="nome">Nome:</label>
               <input name="nome" id="input-nome" type="text" required placeholder="Primeiro nome">
             </div>
             <div>
               <label>Sobrenome:</label>
-              <input id="input-sobrenome" type="text" required placeholder="Sobrenome">
+              <input id="input-sobrenome" type="text" required placeholder="Sobrenome" name="sobrenome">
             </div>
             <div>
-              <label for="email">Email</label>
+              <label for="email">E-mail</label>
               <input type="email" id="input-email" name="email" required placeholder="contato@email.com">
             </div>
             <div>
@@ -155,14 +162,14 @@
             </div>
             <div class="col-2">
               <label for="assunto">Assunto:</label>
-              <input type="text" id="input-assunto" name="assunto" placeholder="O que deseja conversar?" required>
+              <input type="text" id="input-assunto" name="assunto" placeholder="Sobre o que deseja conversar?" required>
             </div>
             <div class="col-2">
               <label for="mensagem">Mensagem</label>
               <textarea rows="5" id="input-mensagem" name="mensagem" placeholder="Fale um pouco sobre"></textarea>
             </div>
-            <button class="submit-button" type="submit">Enviar</button>
-            <button class="submit-button">Limpar</button>
+            <button class="submit-button" type="submit" id="btnSubmit">Enviar</button>
+            <button class="submit-button" id="btnLimpar">Limpar</button>
           </form>
           <ul class="home-lista-contatos">
             <li>
@@ -208,7 +215,7 @@
     </div>
   </footer>
 
-  <script src="./script.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 
 </html>
