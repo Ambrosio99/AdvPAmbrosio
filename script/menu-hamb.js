@@ -6,9 +6,10 @@ export default function menuHamburguer() {
     if (navMenu.style.display === "block") {
       navMenu.style.display = "none";
       menuHamb.style.backgroundColor = "";
+      menuHamb.style.width = "";
     } else {
       navMenu.style.display = "block";
-      menuHamb.style.backgroundColor = "#d5d5d50f";
+      menuHamb.style.backgroundColor = "#000000";
     }
   });
 }
