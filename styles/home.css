@@ -149,6 +149,7 @@
     font-size: 1.15rem;
     line-height: 1.3rem;
     max-width: 60ch;
+    text-align: justify;
   }
 }
 .atuacao-btn {
@@ -166,6 +167,27 @@
   }
 }
 
+.atuacao-list-fml {
+  padding:1rem 1.5rem 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3.2rem;
+
+  & li {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: var(--texto-escuro);
+    list-style: square;
+  }
+}
+
+.linha-div {
+  display: block;
+  content: "";
+  height: 1rem;
+  width: 100%;
+  background-color: var(--texto-escuro2);
+}
 /* SECTION ADVOGADOS */
 .adv01-bg {
   background-color: var(--texto-escuro2);
